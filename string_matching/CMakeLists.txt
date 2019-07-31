@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.14.5)
+project(string_matching)
+set(CMAKE_CXX_STANDARD 11)
+set(SOURCE ${PROJECT_SOURCE_DIR}/src/main.cpp)
+add_executable(string_matching ${SOURCE})
